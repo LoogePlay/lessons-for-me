@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font: 50px sans-serif;
+    background: #F2EA79;
+    padding: 50px;
+    height: 100vh;
+    box-sizing: content-box; /*width и height размер контента */
+    box-sizing: border-box;
+}
+.root {
+    background: #fff;
+    height: 100%;
+    border-radius: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ; /*расположения элементов в доль осн оси 
+    flex start - начать с начала оси
+    flex end - закончить с конца оси 
+    center
+    space around равные отступы вокруг каждого флекса
+    */
+    align-items: center;
+    /*
+    align-items - расположение вдоль поперечной оси 
+    stretch - растянуть по высоте flex-контейнера
+    fexl-start
+    flex-end
+    center
+     */
+}
+.root-item {
+    background: #F25244;
+    /* width: 150px; */
+    /* height: 150px; */
+    border: 1px solid #484F73;
+    color: #484F73;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    /* line-height: 150px; */
+    padding: 50px;
+}
+.container {
+    background: #fff;
+    height: 100%;
+    border-radius: 10px;
+    /* padding: 50px; */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header {
+    height: 70px;
+    background: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+main {
+    height: calc(100% - 70px);
+    background: url(https://img4.goodfon.ru/original/1920x1080/7/a7/dota-2-pro-team-secret-logo.jpg) no-repeat center ;
+color: orange;
+font-size: 70px;
+box-sizing: border-box;
+padding-bottom: 50px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    background: url(https://pp.userapi.com/c849120/v849120549/c51af/klms-IcLvtg.jpg?ava=1)no-repeat center;
+    border-radius: 50%;
+
+}
+.menu {
+    width: 500px;
+    background: grey;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    color: peachpuff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
